@@ -89,6 +89,8 @@ body {
   text-align: center;
 }
 .title .search {
+  width: 651px;
+  height: 74px;
   display: flex;
   align-items: center;
   border: 1px solid #efefff;
@@ -116,7 +118,7 @@ body {
 }
 .title .search input {
   border: none;
-  background-color: #ffffff;
+  background-color: #ffffff00;
 }
 .title .search .searchicon {
   margin-left: -240px;
@@ -134,7 +136,7 @@ body {
   border: 1px solid #efefff;
 }
 .list .latest {
- max-width: 107px;
+  max-width: 107px;
   height: 51px;
   padding: 15px 30px 15px 30px;
 
@@ -174,62 +176,61 @@ body {
   border-radius: 32px;
 }
 
-.apps{display: flex;
-align-items: center;}
+.apps {
+  display: flex;
+  align-items: center;
+}
 
- .img{
-  max-width: 61px;
-height: 61px;
-border-radius: 70px;
-border: 1px solid #EFEFFF;
-background-color:  #FCFCFF;
-display: flex;
+.img {
+  width: 61px;
+  height: 61px;
+  border-radius: 70px;
+  border: 1px solid #efefff;
+  background-color: #fcfcff;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-.apps .img img{
+.apps .img img {
   max-width: 29px;
 }
-.apps  .img2{
-border: 1px solid #EFEFFF;
-background-color:  #FCFCFF;
-border: 1px solid #FF6A95
-
+.apps .img2 {
+  border: 1px solid #efefff;
+  background-color: #fcfcff;
+  border: 1px solid #ff6a95;
 }
-.designs{
+.designs {
   margin-top: 200px;
 }
-.card{
+.card {
   position: relative;
 }
-.card .user{
+.card .user {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.card .img{
+.card .img {
   position: absolute;
-  top:20px;
+  top: 20px;
   left: 20px;
 }
-.profile{
+.profile {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 14px;
 }
-.code{
+.code {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.code p{
-  margin-right:20px ;
+.code p {
+  margin-right: 20px;
 }
 
-.profile .name{
+.profile .name {
   font-weight: bold;
 }
-
-
