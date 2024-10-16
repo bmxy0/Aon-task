@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+header { background-color: #FFFCF8;
+  border-bottom: 1px solid #F4E8D8;
+  margin-bottom: 30px;
+  padding-bottom: 130px;
+}
+
+.container {
+  max-width: 1530px;
+  margin: auto;
+  padding-top: 35px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 25px
+}
+header .border{
+  height: 1px;
+  background-color: #f4e8d8;
+}
+.content .logo p {
+  color: #14203e3d;
+  font-weight: bold;
+}
+
+.content .menu a {
+  color: #14203e;
+  padding-left: 56px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.register .login {
+  width: 112px;
+  height: 50px;
+  background-color: #f6f0e8;
+  border: none;
+  border-radius: 10px;
+  margin-left: -130px;
+}
+.login:hover{
+  opacity: 0.6;
+}
+.login:active{
+  opacity: 0;
+}
+ .trial {
+  width: 180px;
+  height: 50px;
+  background-color: #14203e;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-left: 15px;
+  border: none;
+  transition: 0.4s;
+}
+.trial:hover{
+  opacity: 0.6;
+}
+.trial:active{
+  opacity: 0;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 130px;
+}
+.title h1{
+  font-size: 66px;
+  text-align: center;
+  color: #14203E;
+}
+.title .subtitle{
+  font-size: 22px;
+  margin-top: 30px;
+  text-align: center;
+  color: #14203E;
+  font-weight: 400;
+}
+.title .trial{
+width: 192px;
+height: 73px;
+margin-top: 40px;
+
+}
+
+.text{
+  margin: auto;
+  display: flex;
+   align-items: center;
+   justify-content: space-between;
+  max-width: 636px;
+  margin-bottom: 30px
+  }
+.text .line{
+  height: 1px;
+  width: 200px;
+  background-color: #14203E33;
+}
+.text p{
+  font-size: 14px;
+  color: #14203E;
+  font-weight: 600;
+}
+
+.carousol{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  max-width: 1300px;
+  gap: 30px;
+  margin: auto;
+  margin-bottom: 62px;
+}
+.card{
+  max-width: 292px;
+  height: 356px;
+}
+.card img{
+  width:291px;
+  margin-bottom: 20px;
+}
+.card h6{
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+.card p{
+  font-size: 14px;
+  color: #14203E;
+}

@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #fcfcff;
+}
+
+.container {
+  height: 120px;
+  max-width: 1340px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.menu .btn1 {
+  max-width: 132px;
+  height: 44px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 32px;
+  background: #f1f1fd;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+.btn2 {
+  max-width: 90px;
+  height: 44px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 32px;
+  background: #fcfcff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #202142;
+  border: none;
+}
+.signin .btn2 {
+  color: black;
+  font-weight: bold;
+}
+.signin .signup {
+  max-width: 120px;
+  height: 54px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+  background-color: #202142;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.title {
+  height: 427px;
+  background-color: #fcfcff;
+}
+.title .container {
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+}
+.title .day {
+  left: 0;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff6a95;
+  padding: 18px;
+}
+.title .text {
+  margin-top: 90px;
+  margin-bottom: 38px;
+}
+.title h1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #202142;
+}
+
+.title p {
+  max-width: 580px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+.title .search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #efefff;
+  box-shadow: 0px 16px 35px -15px #02058426;
+  max-width: 651px;
+  height: 74px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.title .dropdown {
+  max-width: 165px;
+  height: 54px;
+  background-color: #ffffff;
+  padding: 11px 15px 11px 15px;
+  border-radius: 7px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.title .line {
+  max-width: 1px;
+  height: 54px;
+  background: #efefff;
+  margin-right: 62px;
+}
+.title .search input {
+  border: none;
+  background-color: #ffffff;
+}
+.title .search .searchicon {
+  margin-left: -240px;
+  max-width: 34px;
+}
+
+.list {
+  max-width: 236px;
+  height: 61px;
+
+  padding: 5px;
+  gap: 10px;
+  border-radius: 70px;
+  background-color: #fcfcff;
+  border: 1px solid #efefff;
+}
+.list .latest {
+ max-width: 107px;
+  height: 51px;
+  padding: 15px 30px 15px 30px;
+
+  border-radius: 45px;
+  border: 1px solid #efefff;
+  box-shadow: 0px 10px 15px -10px #0205840d;
+}
+.list .popular {
+  background-color: #fcfcff;
+  max-width: 119px;
+  height: 51px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 70px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.08px;
+  text-align: left;
+  border: none;
+  color: #202142;
+}
+.screen {
+  display: flex;
+  align-items: center;
+}
+.screen .btn3 {
+  max-width: 49px;
+  height: 44px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 32px;
+  border: 1px solid #efefff;
+}
+.screen .btn4 {
+  max-width: 67px;
+  height: 44px;
+  padding: 10px 15px 10px 15px;
+
+  border-radius: 32px;
+}
+
+.apps{display: flex;
+align-items: center;}
+
+ .img{
+  max-width: 61px;
+height: 61px;
+border-radius: 70px;
+border: 1px solid #EFEFFF;
+background-color:  #FCFCFF;
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apps .img img{
+  max-width: 29px;
+}
+.apps  .img2{
+border: 1px solid #EFEFFF;
+background-color:  #FCFCFF;
+border: 1px solid #FF6A95
+
+}
+.designs{
+  margin-top: 200px;
+}
+.card{
+  position: relative;
+}
+.card .user{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .img{
+  position: absolute;
+  top:20px;
+  left: 20px;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+.code{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.code p{
+  margin-right:20px ;
+}
+
+.profile .name{
+  font-weight: bold;
+}
+
+
