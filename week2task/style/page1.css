@@ -35,6 +35,9 @@ header .border{
   font-size: 18px;
   text-decoration: none;
 }
+.register .more{
+  display: none;
+}
 
 .register .login {
   width: 112px;
@@ -44,10 +47,13 @@ header .border{
   border-radius: 10px;
   margin-left: -130px;
 }
-.login:hover{
+button{transition: 0.4s;
+
+}
+button:hover{
   opacity: 0.6;
 }
-.login:active{
+button:active{
   opacity: 0;
 }
  .trial {
@@ -58,18 +64,13 @@ header .border{
   border-radius: 10px;
   margin-left: 15px;
   border: none;
-  transition: 0.4s;
+  
 }
-.trial:hover{
-  opacity: 0.6;
-}
-.trial:active{
-  opacity: 0;
-}
+
 .title{
   display: flex;
   flex-direction: column;
-  width: 600px;
+  max-width: 600px;
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -137,4 +138,44 @@ margin-top: 40px;
 .card p{
   font-size: 14px;
   color: #14203E;
+}
+
+@media screen and (max-width:768px){
+  .menu,.login,.register .trial{
+    display: none;
+  }
+  
+  .container{ 
+    max-width: 550px;
+  }
+  .register .more{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;  
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    border: none;
+  }
+  .register .more img{
+    width: 20px;
+    margin: auto;
+    
+  }
+  .carousol{
+    flex-direction: column;
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+  .title h1{
+    font-size: 30px;
+
+  }
+  .title .subtitle{
+    font-size: 16px;
+  }
 }

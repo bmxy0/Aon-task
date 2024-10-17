@@ -52,6 +52,9 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+.more {
+  display: none;
+}
 .title {
   height: 427px;
   background-color: #fcfcff;
@@ -93,6 +96,7 @@ body {
   height: 74px;
   display: flex;
   align-items: center;
+  gap: 10px;
   border: 1px solid #efefff;
   box-shadow: 0px 16px 35px -15px #02058426;
   max-width: 651px;
@@ -101,7 +105,7 @@ body {
   background-color: #ffffff;
 }
 .title .dropdown {
-  max-width: 165px;
+  width: 165px;
   height: 54px;
   background-color: #ffffff;
   padding: 11px 15px 11px 15px;
@@ -111,18 +115,16 @@ body {
   align-items: center;
 }
 .title .line {
-  max-width: 1px;
+  width: 1px;
   height: 54px;
   background: #efefff;
-  margin-right: 62px;
 }
 .title .search input {
   border: none;
   background-color: #ffffff00;
 }
 .title .search .searchicon {
-  margin-left: -240px;
-  max-width: 34px;
+  width: 30px;
 }
 
 .list {
@@ -136,7 +138,7 @@ body {
   border: 1px solid #efefff;
 }
 .list .latest {
-  max-width: 107px;
+  width: 107px;
   height: 51px;
   padding: 15px 30px 15px 30px;
 
@@ -172,7 +174,6 @@ body {
   max-width: 67px;
   height: 44px;
   padding: 10px 15px 10px 15px;
-
   border-radius: 32px;
 }
 
@@ -198,6 +199,9 @@ body {
   border: 1px solid #efefff;
   background-color: #fcfcff;
   border: 1px solid #ff6a95;
+}
+.apps .img2 .arrow{
+  display: none;
 }
 .designs {
   margin-top: 200px;
@@ -233,4 +237,65 @@ body {
 
 .profile .name {
   font-weight: bold;
+}
+.all{display: none;}
+@media screen and (max-width: 768px) {
+  .container {
+    height: 100px;
+    width: 640px;
+  }
+  header .menu .btn1,
+  .btn2,
+  .signup {
+    display: none;
+  }
+  .more {
+    display: block;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #202142;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+  }
+  .all {
+    display: flex;
+    align-items: center;
+    border: none;
+    max-width: 67px;
+    height: 51px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 32px;
+  }
+  .btn3,
+  .btn4 {
+    display: none;
+  }
+  .designs {
+    margin-top: 50px;
+  }
+  .designs .container{
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+.container{
+  max-width: 600px;
+}
+.apps .img{
+  display: none;
+}
+.apps .img2{
+  display: flex;
+}
+.apps .img2 .arrow{
+  display: block;
+}
+.title .search{
+  width: 100%;
+}
 }
