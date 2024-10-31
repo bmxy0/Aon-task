@@ -43,7 +43,7 @@ let removeStudentById = (id) => {
 
 //8
 let updateStudentById = (id, updatedData) => {
-  students.map((el) => (id === el.id ? { el, updatedData } : el));
+  students.map((el) => (id === el.id ? { ...el, ...updatedData } : el));
 };
 
 // console.log(students);
@@ -107,6 +107,7 @@ let countStudents = () => {
   return students.length;
 };
 // console.log(countStudents())
+
 //18
 let countStudentsByStage = (stage) => {
   return students.filter((el) => el.stage == stage).length;

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="content">
+          <div class="logo">
+            <img src="./assests/logo.png" />
+          </div>
+          <div class="menu">
+            <a href="#" class="active">Home</a>
+            <a href="about.html" >About</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="info">
+          <h1>Simple ToDo App</h1>
+          <p>This todo app for test design.</p>
+        </div>
+
+        <div class="form">
+          <input class="todo" id="todo" placeholder="Write Text here . . ." />
+          <button class="add" id="add">+ Add New</button>
+        </div>
+
+        <div class="line"></div>
+        <div id="list"></div>
+        <p class="total" id="totalNum">
+          Total List : <span class="num">0</span>
+        </p>
+        <button class="add floating" id="add2">+ Add New</button>
+      </div>
+    </main>
+    <script src="app.js"></script>
+
+  </body>
+</html>
