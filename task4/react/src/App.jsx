@@ -73,7 +73,7 @@ function App() {
               </div>
             ))}
           </div>
-          <p class="total" id="totalNum">
+          <p className="total">
             Total List : <span class="num">{total}</span>
           </p>
           <button className="add floating" onClick={addItem}>

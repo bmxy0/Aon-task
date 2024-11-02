@@ -1,0 +1,32 @@
+ .info{margin-top: 66px;
+margin-bottom: 82px;}
+ .info h1{
+  font-weight: bold;
+  font-size: 36px;
+}
+.info p{
+font-size: 18px;
+color: #666666;
+
+}
+.image{
+  width:500px;
+  margin-bottom: 40px;
+}
+ .footer{
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-bottom: 100px;
+}
+
+ .footer p{
+font-size: 18px;
+color: #666666;
+}
+ .footer p .aon{
+  
+  color: #0000FF
+  
+  }
+

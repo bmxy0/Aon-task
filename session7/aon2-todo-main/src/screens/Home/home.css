@@ -1,0 +1,70 @@
+.home-screen h1{
+    margin-top: 66px;
+    font-size: 35px;
+}
+
+.home-screen p.sub-title{
+   font-size: 18px;
+   color: #666;
+   margin-top: 4px;
+}
+
+.home-screen .input-form{
+    margin-top: 38px;
+    display: flex;
+    gap: 16px;
+}
+
+.home-screen .input-form input{
+   flex: 1;
+   height: 48px;
+   border-radius: 8px;
+   padding: 0px 16px;
+   border: none;
+   border: 1px solid #eee;
+   font-size: 18px;
+}
+.home-screen .input-form button{
+   width: 150px;
+   height: 48px;
+   border:  none;
+   border-radius: 8px;
+   background-color: #0000ff;
+   color: #fff;
+   font-size: 20px;
+}
+
+
+
+.home-screen .todo-list .todo-item{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 72px;
+ padding: 0px 24px;
+ background: #f6f6f6;
+ border-radius: 8px;
+ font-size: 20px;
+ margin-bottom: 16px;
+}
+
+.home-screen .todo-list .todo-item button{
+    height: 32px ;
+    width: 32px;
+    border:  1px solid #ff0000;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #ff0000;
+}
+
+.total {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #666666;
+    margin-bottom: 30px;
+  }
+  .total .num {
+    color: #000000;
+  }
