@@ -1,0 +1,35 @@
+.header {
+  max-width: 676px;
+  max-height: 960px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #3c97af;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header h1 {
+  margin-top: 138px;
+  margin-bottom: 48px;
+  max-width: 494px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.header p {
+  width: 633px;
+  height: 150px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight:300;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 220px;
+}
+
+.header .vector1 {
+  margin-bottom: -257px;
+}

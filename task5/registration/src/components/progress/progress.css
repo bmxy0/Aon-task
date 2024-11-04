@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+  gap: 16px;
+  margin-top: 128px;
+  margin-bottom: 32px;
+}
+
+.flex .bar {
+  width: 196px;
+  height: 0px;
+  border: 6px solid var(--Color-Border-Neutral, #ebebeb);
+  border-radius: 6px;
+}
+
+.flex .done {
+  border: 6px solid var(--Color-Border-Primary, #3c97af);
+}

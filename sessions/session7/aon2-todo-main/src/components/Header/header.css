@@ -16,6 +16,8 @@ header {
   header .menu a {
     font-size: 18px;
     margin-left: 26px;
+    text-decoration: none;
+    color: black;
   }
   
   header .menu .active{
