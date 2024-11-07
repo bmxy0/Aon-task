@@ -1,0 +1,78 @@
+.otp {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 32px;
+  gap: 24px;
+}
+
+.otp-input {
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--Color-Border-Neutral, #ebebeb);
+  color: #3c97af;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  outline: none;
+}
+.otp-focus {
+  outline: none;
+  background-color: #ecf6f9;
+  border: 1px solid #3c97af;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 4px;
+}
+.time p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  color: #3c97af;
+}
+.message {
+  margin-top: 16px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #afb1b6;
+  text-align: center;
+  opacity: 0.32;
+}
+.resend{
+  opacity: 1;
+}
+span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3c97af; 
+}
+.resend span{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+  .otp-input {
+    padding: 0 10px;
+  }
+
+
+
+  
+}
+@media screen and (max-width: 393px){
+
+  .otp {
+    width: 345px;
+    gap: 12px;
+  }
+
+  
+}

@@ -3,15 +3,42 @@
   gap: 16px;
   margin-top: 128px;
   margin-bottom: 32px;
+  justify-content: center;
 }
 
 .flex .bar {
-  width: 196px;
+  width: calc(100% / 3);
   height: 0px;
-  border: 6px solid var(--Color-Border-Neutral, #ebebeb);
+  border: 6px solid #ebebeb;
   border-radius: 6px;
+}
+.flex .second-bar {
+  display: flex;
+  width: calc(100% / 3);
+  background-color: #ebebeb;
+  border-radius: 6px;
+  gap: 0;
+}
+.second-bar .bar3{
+  width: calc(100%/2);
+}
+.flex .second-bar .bar1 {
+  width: 100%;
+  border-radius: 6px 0 0 6px;
+}
+.flex .second-bar .bar2 {
+  width: 100%;
+  border-radius: 0 6px 6px 0;
 }
 
 .flex .done {
-  border: 6px solid var(--Color-Border-Primary, #3c97af);
+  border: 6px solid #3c97af;
+}
+
+@media screen and (max-width: 600px) {
+  .flex .bar,
+  .flex .second-bar {
+    width: calc(100% / 3);
+  }
+  .flex{margin-top: 10px;}
 }

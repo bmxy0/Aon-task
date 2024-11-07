@@ -33,3 +33,7 @@
 .header .vector1 {
   margin-bottom: -257px;
 }
+
+@media screen and (max-width:600px){
+  .header{display: none;}
+}

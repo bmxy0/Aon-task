@@ -7,7 +7,7 @@
 }
 
 .sub-heading {
-  font-family: Poppins;
+  font-family: sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -27,12 +27,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 302px;
+  width: 268px;
   height: 165px;
   padding: 24px 16px;
   background-color: #ffffff;
   border-radius: 16px;
-  border: 1px solid  #ebebeb;
+  border: 1px solid #ebebeb;
+  cursor: pointer;
   transition: 0.5s;
 }
 .radio-label img {
@@ -58,38 +59,83 @@
 
 .radio-input:checked + .radio-label {
   background: #ecf6f9;
-  border-color:#3c97af;
+  border-color: #3c97af;
 }
 
-
-.inActive , .active {
-  width: 620px;
+.inActive,
+.active {
+  position: absolute;
+  bottom: 128px;
+  width: 650px;
   height: 50px;
-  padding: 13px;
   border: none;
   border-radius: 16px;
-  margin-top: 340px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:8px;
-  
+  gap: 8px;
+  transition: 0.3s;
 }
-.active{
-  background-color: #3C97AF;
-  color: #FFFFFF;
+.active {
+  background-color: #3c97af;
+  color: #ffffff;
+  cursor: pointer;
 }
-.inActive{
+.inActive {
   background-color: #ebebeb;
   color: #999999;
 }
-.inActive p, .active p{font-family: Exo;
+.inActive p,
+.active p {
+  font-family: Exo;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
- }
+}
 
+button:active {
+  background-color: #ebebeb;
+  color: black;
+}
 
+@media screen and (max-width: 600px) {
+  .options {
+    flex-direction: column;
+  }
+  .radio-label {
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    gap: 16px;
+  }
 
+  .radio-label h2 {
+    text-align: left;
+  }
+  .radio-label p {
+    width: 100%;
+    text-align: left;
+  }
+  .inActive,
+  .active {
+    position:sticky;
+    width: 100%;
+    margin-top: 70px;
+    bottom: 48px;
+  }
+}
 
+@media screen and (max-width: 393px) {
+  .heading {
+    font-size: 32px;
+    text-align: left;
+  }
+
+  .sub-heading {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+
+  }
+}

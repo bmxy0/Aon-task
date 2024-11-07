@@ -1,0 +1,83 @@
+h4 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #0a0a0a;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.phoneInput {
+  display: flex;
+
+
+  gap: 8px;
+}
+
+.phoneInput .selector {
+  display: flex;
+  align-items: center;
+  width: 91px;
+  height: 48px;
+  gap: 10px;
+  border-radius: 8px;
+  justify-content: center;
+}
+.phoneInput .unfocused-selector{
+  border: 1px solid #ebebeb;
+}
+.phoneInput .focused-selector{
+  border: 1px solid #3c97af;
+}
+.phoneInput .selector img {
+  width: 23.98px;
+  height: 16px;
+}
+.phoneInput .selector p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+.phoneInput input {
+  width: 511.02px;
+  height: 28px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ebebeb;
+}
+
+.phoneInput input:focus{
+  outline: none;
+  border: 1px solid #3c97af;
+}
+.verify-btn {
+  margin-top: 401px;
+}
+
+@media screen and (max-width: 600px){
+  
+.phoneInput input{
+  width: 400px;
+}
+
+}
+
+@media screen and (max-width: 393px){
+
+  .phoneInput input{
+    width: 224px;
+  }
+
+
+
+}
