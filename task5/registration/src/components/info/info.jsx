@@ -1,15 +1,14 @@
 import "./info.css";
 import Show from "../svgs/show";
 import { useState, useEffect } from "react";
-const Info = () => {
-  const [active, setActive] = useState(false);
+const Info = ({active,setActive}) => {
   const [activeName, setActiveName] = useState(false);
   const [activeEmail, setActiveEmail] = useState(false);
   const [activePassword, setActivePassword] = useState(false);
   const [passwordVisible, setPasswordVisible] = useState(false);
-  const [name, setName] = useState("asda");
-  const [email, setEmail] = useState("@");
-  const [password, setPassword] = useState("asdasdasdasdasdadasd");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   
   useEffect(() => {

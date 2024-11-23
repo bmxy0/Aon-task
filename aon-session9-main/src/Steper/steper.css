@@ -1,0 +1,28 @@
+.steper {
+  padding: 100px;
+}
+
+.steper .dots {
+  display: flex;
+  gap: 8px;
+}
+
+.steper .dots .dot {
+  height: 8px;
+  width: 60px;
+  border-radius: 8px;
+  background-color: #ccc;
+  transition: 0.4s;
+  position: relative;
+  overflow: hidden;
+}
+
+.steper .dots .fill-dot {
+  height: 8px;
+  width: 0px;
+  transition: 0.4s;
+}
+.steper .dots .dot-active .fill-dot {
+  background-color: #0000ff;
+  width: 100%;
+}
